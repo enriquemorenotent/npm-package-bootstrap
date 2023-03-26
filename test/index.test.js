@@ -1,5 +1,5 @@
-import plumage from '../src';
+import foo from '../src';
 
-test('plumage', () => {
-	expect(plumage).toBeDefined();
+test('foo', () => {
+	expect(foo).toBeDefined();
 });

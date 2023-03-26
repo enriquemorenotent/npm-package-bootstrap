@@ -1,5 +1,5 @@
-// I want it as a named export...
-export const plumage = () => console.log('named plumage');
+// A named export
+export const foo = () => console.log('named foo');
 
-// ...but also as a default export.
-export default () => console.log('default plumage');
+// A default export.
+export default () => console.log('default foo');
