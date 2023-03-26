@@ -1,12 +1,17 @@
-const path = require('path');
-const TerserPlugin = require('terser-webpack-plugin');
+import path from 'path';
+import TerserPlugin from 'terser-webpack-plugin';
+import { fileURLToPath } from 'url';
+import { dirname } from 'path';
 
-module.exports = {
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
+
+export default {
 	entry: './src/index.js',
 	output: {
 		filename: 'index.js',
 		path: path.resolve(__dirname, 'dist'),
-		libraryTarget: 'umd',
+		libraryTarget: 'module',
 		globalObject: 'this',
 	},
 	module: {
@@ -27,5 +32,8 @@ module.exports = {
 				extractComments: false,
 			}),
 		],
+	},
+	experiments: {
+		outputModule: true, // Add this line
 	},
 };

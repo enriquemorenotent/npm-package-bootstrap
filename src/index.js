@@ -1,3 +1,1 @@
-const foo = () => console.log('foo');
-
-export default foo;
+export const plumage = () => console.log('plumage????');
