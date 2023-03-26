@@ -1,0 +1,53 @@
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn.lock
+package-lock.json
+
+# Build
+dist/
+
+# Logs
+logs
+*.log
+*.log.*
+
+# IDEs and Editors
+/.vscode/
+/.idea/
+*.sublime*
+*.iml
+*.tm_properties
+*.suo
+*.user
+*.sln
+*.sln.docstates
+*.sln.ide/
+*.xproj.user
+*.csproj.user
+*.vbproj.user
+*.fsproj.user
+*.cache
+*.bak
+*.swp
+*.swo
+*.swn
+*.swm
+*.swl
+*.swk
+*.pidb
+*.pidb.meta
+*.dbmdl
+*.jfm
+*.bak
+*.db
+*.tmp
+
+# OS generated
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

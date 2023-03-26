@@ -1,0 +1,25 @@
+{
+	"name": "foo",
+	"version": "1.0.0",
+	"description": "",
+	"main": "dist/index.js",
+	"scripts": {
+		"test": "jest",
+		"test:watch": "jest --watch",
+		"build": "webpack --mode production",
+		"build:watch": "webpack --watch --mode development"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.16.0",
+		"@babel/plugin-transform-runtime": "^7.16.0",
+		"@babel/preset-env": "^7.16.0",
+		"babel-loader": "^8.2.3",
+		"jest": "^27.4.5",
+		"terser-webpack-plugin": "^5.3.7",
+		"webpack": "^5.64.4",
+		"webpack-cli": "^4.9.1"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC"
+}
